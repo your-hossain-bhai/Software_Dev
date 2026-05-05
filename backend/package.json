@@ -1,0 +1,24 @@
+{
+  "name": "nextcareer-backend",
+  "version": "1.0.0",
+  "description": "NextCareer API - AI-Powered Career Companion (SDG-8)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed/run-seed.js",
+    "postinstall": "node scripts/fix-mongodb-tsconfig.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "groq-sdk": "^0.37.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "6.21.0",
+    "mongoose": "^8.0.3",
+    "multer": "^2.0.2",
+    "pdf-parse": "^1.1.1"
+  }
+}
